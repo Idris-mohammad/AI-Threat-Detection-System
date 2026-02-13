@@ -1,0 +1,91 @@
+import pandas as pd
+
+def preprocess_logs(output_file="data/processed_logs.csv"):
+
+    extra_data = [
+
+        # ================= SUSPICIOUS =================
+        ("Failed password for invalid user admin from 192.168.1.10 port 22 ssh2", "suspicious"),
+        ("Failed password for root from 10.0.0.5 port 22 ssh2", "suspicious"),
+        ("sshd[1234]: Invalid user test from 8.8.8.8", "suspicious"),
+        ("pam_unix(sshd:auth): authentication failure", "suspicious"),
+        ("authentication failure; logname= uid=0 euid=0 tty=ssh", "suspicious"),
+        ("Too many authentication failures for root", "suspicious"),
+        ("POSSIBLE BREAK-IN ATTEMPT!", "suspicious"),
+        ("Brute force attack detected from 5.6.7.8", "suspicious"),
+        ("Multiple failed login attempts detected", "suspicious"),
+        ("Unauthorized access attempt blocked", "suspicious"),
+        ("Suspicious login from unknown IP address", "suspicious"),
+        ("Root login attempt blocked", "suspicious"),
+        ("Exploit attempt detected", "suspicious"),
+        ("Account locked due to repeated failures", "suspicious"),
+        ("Firewall blocked suspicious connection", "suspicious"),
+        ("Reverse mapping checking failed", "suspicious"),
+        ("Disconnecting: Too many authentication failures", "suspicious"),
+        ("Connection reset by peer during authentication", "suspicious"),
+        ("Privilege escalation attempt detected", "suspicious"),
+        ("DDoS traffic pattern detected", "suspicious"),
+        ("sudo: authentication failure", "suspicious"),
+        ("pam_unix(sudo:auth): authentication failure", "suspicious"),
+	("sudo: incorrect password attempts", "suspicious"),
+	("sudo: 3 incorrect password attempts", "suspicious"),
+	("user NOT in sudoers", "suspicious"),
+	("sudo access denied", "suspicious"),
+	("authentication failure for sudo", "suspicious"),
+ 	("password check failed for user","suspicious"),
+	("EventID 4625 An account failed to log on", "suspicious"),
+	("Audit Failure: Failed logon attempt", "suspicious"),
+	("Account lockout after multiple failures", "suspicious"),
+	("Unauthorized access attempt detected", "suspicious"),
+	("Privilege escalation attempt blocked", "suspicious"),
+	("Suspicious PowerShell execution detected", "suspicious"),
+	("Multiple failed RDP login attempts", "suspicious"),
+	("User added to administrators group unexpectedly", "suspicious"),
+	("Security audit failure detected", "suspicious"),
+	("Malware behavior detected on endpoint", "suspicious"),
+
+
+
+        # ================= NORMAL =================
+        ("Accepted password for kali from 127.0.0.1 port 22 ssh2", "normal"),
+        ("pam_unix(sudo:session) Session opened for user kali", "normal"),
+        ("System boot completed successfully", "normal"),
+        ("User logged in successfully", "normal"),
+        ("pam_unix(sudo:session) Session closed for user kali", "normal"),
+        ("CRON job executed successfully", "normal"),
+        ("Backup completed successfully", "normal"),
+        ("Service started successfully", "normal"),
+        ("Docker daemon started", "normal"),
+        ("Network connection established", "normal"),
+        ("CPU usage normal", "normal"),
+        ("Disk usage within limits", "normal"),
+        ("Software update installed successfully", "normal"),
+        ("No errors detected", "normal"),
+        ("System health check passed", "normal"),
+        ("SSH connection established", "normal"),
+        ("Login successful for user kali", "normal"),
+        ("Time synchronized with NTP server", "normal"),
+        ("All services running normally", "normal"),
+        ("User logged out normally", "normal"),
+	("EventID 4624 Successful logon", "normal"),
+	("Audit Success: User authenticated", "normal"),
+	("Windows update installed successfully", "normal"),
+	("System service started", "normal"),
+	("User logged off normally", "normal"),
+	("Scheduled task completed", "normal"),
+	("File accessed successfully", "normal"),
+	("Network connection established", "normal"),
+	("Application launched normally", "normal"),
+	("System startup complete", "normal"),
+
+    ]
+
+    df = pd.DataFrame(extra_data, columns=["raw_log", "label"])
+    df.to_csv(output_file, index=False)
+
+    print("[+] Dataset generated:", output_file)
+    print(df.head())
+
+
+if __name__ == "__main__":
+    preprocess_logs()

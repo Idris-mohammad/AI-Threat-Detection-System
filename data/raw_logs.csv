@@ -1,0 +1,519 @@
+raw_log
+Jan 21 09:33:07 kali wireplumber[841]: spa.alsa: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:07 kali wireplumber[841]: spa.alsa: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:07 kali wireplumber[841]: spa.alsa: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:07 kali wireplumber[841]: spa.alsa: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:07 kali wireplumber[841]: spa.alsa: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:07 kali wireplumber[841]: spa.alsa: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:07 kali wireplumber[841]: spa.alsa: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:07 kali wireplumber[841]: spa.alsa: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:07 kali wireplumber[841]: spa.alsa: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:07 kali wireplumber[841]: spa.alsa: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:07 kali dbus-daemon[833]: [session uid=111 pid=833 pidfd=5] Successfully activated service 'org.gtk.vfs.Daemon'
+Jan 21 09:33:07 kali systemd[808]: Started gvfs-daemon.service - Virtual filesystem service.
+Jan 21 09:33:07 kali wireplumber[841]: default: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Jan 21 09:33:07 kali wireplumber[841]: spa.bluez5: BlueZ system service is not available
+Jan 21 09:33:07 kali wireplumber[841]: wp-device: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+Jan 21 09:33:07 kali wireplumber[841]: s-monitors-libcamera: PipeWire's libcamera SPA plugin is missing or broken. Some camera types may not be supported.
+"Jan 21 09:33:08 kali at-spi-bus-launcher[868]: dbus-daemon[868]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=111 pid=836 comm=""/usr/sbin/lightdm-gtk-greeter"")"
+Jan 21 09:33:08 kali at-spi-bus-launcher[868]: dbus-daemon[868]: Successfully activated service 'org.a11y.atspi.Registry'
+Jan 21 09:33:08 kali at-spi-bus-launcher[900]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Jan 21 09:33:09 kali ModemManager[688]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Jan 21 09:33:12 kali lightdm[906]: gkr-pam: unable to locate daemon control file
+Jan 21 09:33:12 kali lightdm[906]: gkr-pam: stashed password to try later in open session
+Jan 21 09:33:12 kali systemd[1]: session-c1.scope: Killing process 801 (lightdm) with signal SIGTERM.
+Jan 21 09:33:12 kali systemd[1]: session-c1.scope: Killing process 836 (lightdm-gtk-gre) with signal SIGTERM.
+Jan 21 09:33:12 kali systemd[1]: Stopping session-c1.scope - Session c1 of User lightdm...
+Jan 21 09:33:12 kali lightdm[801]: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan 21 09:33:12 kali lightdm[801]: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan 21 09:33:12 kali systemd[1]: session-c1.scope: Deactivated successfully.
+Jan 21 09:33:12 kali systemd[1]: Stopped session-c1.scope - Session c1 of User lightdm.
+"Jan 21 09:33:12 kali systemd[1]: session-c1.scope: Consumed 585ms CPU time, 70.8M memory peak."
+Jan 21 09:33:12 kali systemd-logind[600]: Removed session c1.
+Jan 21 09:33:12 kali lightdm[906]: pam_unix(lightdm:session): session opened for user kali(uid=1000) by kali(uid=0)
+Jan 21 09:33:12 kali systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+Jan 21 09:33:12 kali systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+Jan 21 09:33:12 kali systemd[808]: Reached target sound.target - Sound Card.
+Jan 21 09:33:12 kali systemd-logind[600]: New session '2' of user 'kali' with class 'user' and type 'x11'.
+Jan 21 09:33:12 kali systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+Jan 21 09:33:12 kali systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+Jan 21 09:33:12 kali (systemd)[929]: pam_unix(systemd-user:session): session opened for user kali(uid=1000) by kali(uid=0)
+Jan 21 09:33:12 kali systemd-logind[600]: New session '3' of user 'kali' with class 'manager' and type 'unspecified'.
+Jan 21 09:33:12 kali systemd[929]: Queued start job for default target default.target.
+"Jan 21 09:33:12 kali systemd-journald[422]: File /var/log/journal/aa8b2369c8374f788c337132b3a3fa02/user-1000.journal corrupted or uncleanly shut down, renaming and replacing."
+Jan 21 09:33:12 kali systemd[929]: Created slice app.slice - User Application Slice.
+Jan 21 09:33:12 kali systemd[929]: Created slice session.slice - User Core Session Slice.
+Jan 21 09:33:12 kali systemd[929]: Reached target paths.target - Paths.
+Jan 21 09:33:12 kali systemd[929]: Reached target timers.target - Timers.
+Jan 21 09:33:12 kali systemd[929]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Jan 21 09:33:12 kali systemd[929]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Jan 21 09:33:12 kali systemd[929]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Jan 21 09:33:12 kali systemd[929]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 21 09:33:12 kali systemd[929]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 21 09:33:12 kali systemd[929]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Jan 21 09:33:12 kali systemd[929]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+Jan 21 09:33:12 kali systemd[929]: Listening on keyboxd.socket - GnuPG public key management service.
+Jan 21 09:33:12 kali systemd[929]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+Jan 21 09:33:12 kali systemd[929]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+Jan 21 09:33:12 kali systemd[929]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+Jan 21 09:33:12 kali systemd[929]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Jan 21 09:33:12 kali systemd[929]: Listening on systemd-ask-password.socket - Query the User Interactively for a Password.
+Jan 21 09:33:12 kali systemd[929]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Jan 21 09:33:12 kali systemd[929]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Jan 21 09:33:12 kali systemd[929]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Jan 21 09:33:12 kali systemd[929]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Jan 21 09:33:12 kali systemd[929]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Jan 21 09:33:12 kali systemd[929]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Jan 21 09:33:12 kali systemd[929]: Reached target sockets.target - Sockets.
+Jan 21 09:33:12 kali systemd[929]: Reached target basic.target - Basic System.
+Jan 21 09:33:12 kali systemd[1]: Started user@1000.service - User Manager for UID 1000.
+Jan 21 09:33:12 kali systemd[1]: Started session-2.scope - Session 2 of User kali.
+Jan 21 09:33:12 kali systemd[929]: Starting dbus.service - D-Bus User Message Bus...
+Jan 21 09:33:12 kali systemd[929]: Started pipewire.service - PipeWire Multimedia Service.
+Jan 21 09:33:12 kali systemd[929]: Started filter-chain.service - PipeWire filter chain daemon.
+Jan 21 09:33:12 kali systemd[929]: Started gnome-keyring-daemon.service - GNOME Keyring daemon.
+Jan 21 09:33:12 kali systemd[929]: Started dbus.service - D-Bus User Message Bus.
+Jan 21 09:33:12 kali systemd[929]: Started mpris-proxy.service - Bluetooth mpris proxy.
+Jan 21 09:33:12 kali systemd[929]: Started wireplumber.service - Multimedia Service Session Manager.
+Jan 21 09:33:12 kali systemd[929]: Started pipewire-pulse.service - PipeWire PulseAudio.
+Jan 21 09:33:12 kali systemd[929]: Reached target default.target - Main User Target.
+Jan 21 09:33:12 kali systemd[929]: Startup finished in 150ms.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 6 threads of 3 processes of 1 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 6 threads of 3 processes of 1 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 6 threads of 3 processes of 1 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Successfully made thread 953 of process 953 owned by '1000' high priority at nice level -11.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 7 threads of 4 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Successfully made thread 961 of process 953 owned by '1000' RT at priority 20.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 8 threads of 4 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 8 threads of 4 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 8 threads of 4 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 8 threads of 4 processes of 2 users.
+Jan 21 09:33:12 kali gnome-keyring-daemon[956]: GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 8 threads of 4 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 8 threads of 4 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 8 threads of 4 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Successfully made thread 959 of process 959 owned by '1000' high priority at nice level -11.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 9 threads of 5 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Successfully made thread 969 of process 959 owned by '1000' RT at priority 20.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 10 threads of 5 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 10 threads of 5 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 10 threads of 5 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 10 threads of 5 processes of 2 users.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Successfully made thread 958 of process 958 owned by '1000' high priority at nice level -11.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 11 threads of 6 processes of 2 users.
+Jan 21 09:33:12 kali lightdm[906]: gkr-pam: unlocked login keyring
+Jan 21 09:33:12 kali rtkit-daemon[839]: Successfully made thread 979 of process 958 owned by '1000' RT at priority 20.
+Jan 21 09:33:12 kali rtkit-daemon[839]: Supervising 12 threads of 6 processes of 2 users.
+Jan 21 09:33:12 kali lightdm[906]: Failed to write utmpx: No such file or directory
+Jan 21 09:33:12 kali wireplumber[958]: spa.alsa: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:12 kali wireplumber[958]: spa.alsa: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:12 kali wireplumber[958]: spa.alsa: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:12 kali wireplumber[958]: spa.alsa: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:12 kali wireplumber[958]: spa.alsa: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:12 kali wireplumber[958]: spa.alsa: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:12 kali wireplumber[958]: spa.alsa: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:12 kali wireplumber[958]: spa.alsa: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:12 kali wireplumber[958]: spa.alsa: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:12 kali wireplumber[958]: spa.alsa: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Jan 21 09:33:12 kali wireplumber[958]: default: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Jan 21 09:33:12 kali wireplumber[958]: spa.bluez5: BlueZ system service is not available
+Jan 21 09:33:12 kali wireplumber[958]: wp-device: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+Jan 21 09:33:12 kali wireplumber[958]: s-monitors-libcamera: PipeWire's libcamera SPA plugin is missing or broken. Some camera types may not be supported.
+Jan 21 09:33:13 kali kernel: 14:33:13.172769 main     VBoxClient 7.2.2_Debian r170484 (verbosity: 0) linux.amd64 (Sep 16 2025 13:54:04) release log
+                             14:33:13
+Jan 21 09:33:13 kali kernel: 14:33:13.172901 main     OS Product: Linux
+Jan 21 09:33:13 kali kernel: 14:33:13.172950 main     OS Release: 6.12.38+kali-amd64
+Jan 21 09:33:13 kali kernel: 14:33:13.173002 main     OS Version: #1 SMP PREEMPT_DYNAMIC Kali 6.12.38-1kali1 (2025-08-12)
+Jan 21 09:33:13 kali kernel: 14:33:13.173071 main     Executable: /usr/bin/VBoxClient
+                             14:33:13.173071 main     Process ID: 1045
+                             14:33:13.173072 main     Pac
+Jan 21 09:33:13 kali kernel: 14:33:13.173161 main      VBoxClient 7.2.2_Debian r170484 started. Verbose level = 0
+Jan 21 09:33:13 kali kernel: 14:33:13.175704 main      Session type is: VBGHDISPLAYSERVERTYPE_X11
+Jan 21 09:33:13 kali kernel: 14:33:13.175791 main      Service: Shared Clipboard
+Jan 21 09:33:13 kali kernel: 14:33:13.175884 main      Daemonizing service ...
+Jan 21 09:33:13 kali kernel: 14:33:13.178270 main      Initializing service ...
+Jan 21 09:33:13 kali kernel: 14:33:13.178713 main     VBoxClient 7.2.2_Debian r170484 (verbosity: 0) linux.amd64 (Sep 16 2025 13:54:04) release log
+                             14:33:13
+Jan 21 09:33:13 kali kernel: 14:33:13.178784 main      Creating worker thread ...
+Jan 21 09:33:13 kali kernel: 14:33:13.178888 main     OS Product: Linux
+Jan 21 09:33:13 kali kernel: 14:33:13.179347 main     OS Release: 6.12.38+kali-amd64
+Jan 21 09:33:13 kali kernel: 14:33:13.179427 main     OS Version: #1 SMP PREEMPT_DYNAMIC Kali 6.12.38-1kali1 (2025-08-12)
+Jan 21 09:33:13 kali kernel: 14:33:13.179542 main     Executable: /usr/bin/VBoxClient
+                             14:33:13.179543 main     Process ID: 1049
+                             14:33:13.179543 main     Pac
+Jan 21 09:33:13 kali kernel: 14:33:13.179688 main      VBoxClient 7.2.2_Debian r170484 started. Verbose level = 0
+Jan 21 09:33:13 kali kernel: 14:33:13.179951 shcl      Shared Clipboard: Initializing X11 clipboard (regular mode)
+Jan 21 09:33:13 kali kernel: 14:33:13.182946 main      Session type is: VBGHDISPLAYSERVERTYPE_X11
+Jan 21 09:33:13 kali kernel: 14:33:13.183033 main      Service: Seamless Mode Support
+Jan 21 09:33:13 kali kernel: 14:33:13.183129 main      Daemonizing service ...
+Jan 21 09:33:13 kali kernel: 14:33:13.184992 main      Initializing service ...
+Jan 21 09:33:13 kali kernel: 14:33:13.185631 main     VBoxClient 7.2.2_Debian r170484 (verbosity: 0) linux.amd64 (Sep 16 2025 13:54:04) release log
+                             14:33:13
+Jan 21 09:33:13 kali kernel: 14:33:13.186975 main     OS Product: Linux
+Jan 21 09:33:13 kali kernel: 14:33:13.187430 main     OS Release: 6.12.38+kali-amd64
+Jan 21 09:33:13 kali kernel: 14:33:13.188058 main     OS Version: #1 SMP PREEMPT_DYNAMIC Kali 6.12.38-1kali1 (2025-08-12)
+Jan 21 09:33:13 kali kernel: 14:33:13.188496 main     Executable: /usr/bin/VBoxClient
+                             14:33:13.188498 main     Process ID: 1057
+                             14:33:13.188498 main     Pac
+Jan 21 09:33:13 kali kernel: 14:33:13.188667 main      VBoxClient 7.2.2_Debian r170484 started. Verbose level = 0
+Jan 21 09:33:13 kali kernel: 14:33:13.189068 main      Creating worker thread ...
+Jan 21 09:33:13 kali kernel: 14:33:13.190318 main      Service started
+Jan 21 09:33:13 kali kernel: 14:33:13.191256 main      Session type is: VBGHDISPLAYSERVERTYPE_X11
+Jan 21 09:33:13 kali kernel: 14:33:13.191348 main      Service: Drag'n'Drop
+Jan 21 09:33:13 kali kernel: 14:33:13.191477 main      Daemonizing service ...
+Jan 21 09:33:13 kali kernel: 14:33:13.194049 main      Initializing service ...
+Jan 21 09:33:13 kali kernel: 14:33:13.195376 main     VBoxClient 7.2.2_Debian r170484 (verbosity: 0) linux.amd64 (Sep 16 2025 13:54:04) release log
+                             14:33:13
+Jan 21 09:33:13 kali kernel: 14:33:13.195615 main     OS Product: Linux
+Jan 21 09:33:13 kali kernel: 14:33:13.195699 main     OS Release: 6.12.38+kali-amd64
+Jan 21 09:33:13 kali kernel: 14:33:13.195789 main     OS Version: #1 SMP PREEMPT_DYNAMIC Kali 6.12.38-1kali1 (2025-08-12)
+Jan 21 09:33:13 kali kernel: 14:33:13.195917 main     Executable: /usr/bin/VBoxClient
+                             14:33:13.195918 main     Process ID: 1065
+                             14:33:13.195918 main     Pac
+Jan 21 09:33:13 kali kernel: 14:33:13.196062 main      VBoxClient 7.2.2_Debian r170484 started. Verbose level = 0
+Jan 21 09:33:13 kali kernel: 14:33:13.198480 main      Session type is: VBGHDISPLAYSERVERTYPE_X11
+Jan 21 09:33:13 kali kernel: 14:33:13.198598 main      Service: VirtualBox host version check
+Jan 21 09:33:13 kali kernel: 14:33:13.198748 main      Daemonizing service ...
+Jan 21 09:33:13 kali kernel: 14:33:13.200593 main      Creating worker thread ...
+Jan 21 09:33:13 kali kernel: 14:33:13.202271 main     VBoxClient 7.2.2_Debian r170484 (verbosity: 0) linux.amd64 (Sep 16 2025 13:54:04) release log
+                             14:33:13
+Jan 21 09:33:13 kali kernel: 14:33:13.202455 main     OS Product: Linux
+Jan 21 09:33:13 kali kernel: 14:33:13.202663 main     OS Release: 6.12.38+kali-amd64
+Jan 21 09:33:13 kali kernel: 14:33:13.202767 main     OS Version: #1 SMP PREEMPT_DYNAMIC Kali 6.12.38-1kali1 (2025-08-12)
+Jan 21 09:33:13 kali kernel: 14:33:13.202856 main     Executable: /usr/bin/VBoxClient
+                             14:33:13.202857 main     Process ID: 1070
+                             14:33:13.202857 main     Pac
+Jan 21 09:33:13 kali kernel: 14:33:13.203037 main      VBoxClient 7.2.2_Debian r170484 started. Verbose level = 0
+Jan 21 09:33:13 kali kernel: 14:33:13.205450 main      Session type is: VBGHDISPLAYSERVERTYPE_X11
+Jan 21 09:33:13 kali kernel: 14:33:13.205570 main      Service: VMSVGA display assistant
+Jan 21 09:33:13 kali kernel: 14:33:13.205702 main      Daemonizing service ...
+Jan 21 09:33:13 kali kernel: 14:33:13.207448 main      Initializing service ...
+Jan 21 09:33:13 kali kernel: 14:33:13.207574 main     VBoxClient VMSVGA: probing Desktop Environment helper 'GNOME3'
+Jan 21 09:33:13 kali kernel: 14:33:13.207697 main     VBoxClient VMSVGA: probing Desktop Environment helper 'GENERIC'
+"Jan 21 09:33:13 kali kernel: 14:33:13.211383 main     VBoxClient VMSVGA: attempt to start display change monitor thread, rc=VINF_SUCCESS"
+Jan 21 09:33:13 kali kernel: 14:33:13.211541 main     VBoxClient VMSVGA: using Desktop Environment specific display helper 'GENERIC'
+"Jan 21 09:33:13 kali kernel: 14:33:13.211697 main     VBoxClient VMSVGA: Error: unable to connect to IPC server, rc=VERR_FILE_NOT_FOUND"
+Jan 21 09:33:13 kali kernel: 14:33:13.225641 main      Service started
+Jan 21 09:33:13 kali kernel: 14:33:13.225749 main      Service started
+Jan 21 09:33:13 kali kernel: 14:33:13.228347 main      Creating worker thread ...
+"Jan 21 09:33:13 kali kernel: 14:33:13.229294 dnd       Proxy window=0x600001 (debug mode: false), root window=0x233 ..."
+Jan 21 09:33:13 kali kernel: 14:33:13.230862 main      Service started
+"Jan 21 09:33:13 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.17' (uid=1000 pid=981 comm=""xfce4-session"")"
+Jan 21 09:33:13 kali systemd[929]: Starting at-spi-dbus-bus.service - Accessibility services bus...
+Jan 21 09:33:13 kali at-spi-bus-laun[1097]: unable to open file '/etc/dconf/db/local': Failed to open file “/etc/dconf/db/local”: open() failed: No such file or directory; expect degraded performance
+Jan 21 09:33:13 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.a11y.Bus'
+Jan 21 09:33:13 kali systemd[929]: Started at-spi-dbus-bus.service - Accessibility services bus.
+"Jan 21 09:33:13 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.xfce.Xfconf' unit='xfconfd.service' requested by ':1.19' (uid=1000 pid=981 comm=""xfce4-session"")"
+Jan 21 09:33:13 kali systemd[929]: Starting xfconfd.service - Xfce configuration service...
+Jan 21 09:33:13 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.xfce.Xfconf'
+Jan 21 09:33:13 kali systemd[929]: Started xfconfd.service - Xfce configuration service.
+"Jan 21 09:33:13 kali at-spi-bus-launcher[1104]: dbus-daemon[1104]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=981 comm=""xfce4-session"")"
+Jan 21 09:33:13 kali at-spi-bus-launcher[1104]: dbus-daemon[1104]: Successfully activated service 'org.a11y.atspi.Registry'
+Jan 21 09:33:13 kali at-spi-bus-launcher[1115]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Jan 21 09:33:13 kali systemd[929]: Started gpg-agent.service - GnuPG cryptographic agent and passphrase cache.
+Jan 21 09:33:13 kali gpg-agent[1126]: gpg-agent (GnuPG) 2.4.8 starting in supervised mode.
+Jan 21 09:33:13 kali gpg-agent[1126]: using fd 3 for browser socket (/run/user/1000/gnupg/S.gpg-agent.browser)
+Jan 21 09:33:13 kali gpg-agent[1126]: using fd 4 for std socket (/run/user/1000/gnupg/S.gpg-agent)
+Jan 21 09:33:13 kali gpg-agent[1126]: using fd 5 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Jan 21 09:33:13 kali gpg-agent[1126]: using fd 6 for extra socket (/run/user/1000/gnupg/S.gpg-agent.extra)
+Jan 21 09:33:13 kali gpg-agent[1126]: listening on: std=4 extra=6 browser=3 ssh=5
+Jan 21 09:33:13 kali systemd[929]: Started gpg-agent.service - GnuPG cryptographic agent and passphrase cache.
+Jan 21 09:33:13 kali gpg-agent[1131]: gpg-agent (GnuPG) 2.4.8 starting in supervised mode.
+Jan 21 09:33:13 kali gpg-agent[1131]: using fd 3 for browser socket (/run/user/1000/gnupg/S.gpg-agent.browser)
+Jan 21 09:33:13 kali gpg-agent[1131]: using fd 4 for std socket (/run/user/1000/gnupg/S.gpg-agent)
+Jan 21 09:33:13 kali gpg-agent[1131]: using fd 5 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Jan 21 09:33:13 kali gpg-agent[1131]: using fd 6 for extra socket (/run/user/1000/gnupg/S.gpg-agent.extra)
+Jan 21 09:33:13 kali gpg-agent[1131]: listening on: std=4 extra=6 browser=3 ssh=5
+"Jan 21 09:33:13 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.23' (uid=1000 pid=1134 comm=""xfwm4"")"
+Jan 21 09:33:13 kali systemd[929]: Starting gvfs-daemon.service - Virtual filesystem service...
+Jan 21 09:33:13 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.gtk.vfs.Daemon'
+Jan 21 09:33:13 kali systemd[929]: Started gvfs-daemon.service - Virtual filesystem service.
+"Jan 21 09:33:13 kali kernel: 14:33:13.713809 main     VBoxClient VMSVGA: helper service terminated, rc=VINF_SUCCESS"
+"Jan 21 09:33:13 kali kernel: 14:33:13.715903 main     VBoxClient VMSVGA: starting legacy service, rc=VINF_SUCCESS"
+"Jan 21 09:33:13 kali kernel: 14:33:13.716165 main     VBoxClient VMSVGA: Service is not availabe, skipping"
+Jan 21 09:33:13 kali kernel: 14:33:13.717060 main     VBoxClient 7.2.2_Debian r170484 (verbosity: 0) linux.amd64 (Sep 16 2025 13:54:04) release log
+                             14:33:13
+Jan 21 09:33:13 kali kernel: 14:33:13.717459 main     OS Product: Linux
+Jan 21 09:33:13 kali kernel: 14:33:13.717545 main     OS Release: 6.12.38+kali-amd64
+Jan 21 09:33:13 kali kernel: 14:33:13.717636 main     OS Version: #1 SMP PREEMPT_DYNAMIC Kali 6.12.38-1kali1 (2025-08-12)
+Jan 21 09:33:13 kali kernel: 14:33:13.717753 main     Executable: /usr/bin/VBoxClient
+                             14:33:13.717753 main     Process ID: 1155
+                             14:33:13.717754 main     Pac
+Jan 21 09:33:13 kali kernel: 14:33:13.718247 main      VBoxClient 7.2.2_Debian r170484 started. Verbose level = 0
+Jan 21 09:33:13 kali kernel: 14:33:13.719090 main      Session type is: VBGHDISPLAYSERVERTYPE_X11
+Jan 21 09:33:13 kali kernel: 14:33:13.719222 main      Service: SVGA X11 display
+Jan 21 09:33:13 kali kernel: 14:33:13.719333 main      Daemonizing service ...
+Jan 21 09:33:13 kali kernel: 14:33:13.721513 main      Initializing service ...
+Jan 21 09:33:13 kali kernel: 14:33:13.726304 main      VMWARE's ctrl extension is available. Major Opcode is 128.
+Jan 21 09:33:13 kali kernel: 14:33:13.728983 main      Creating worker thread ...
+Jan 21 09:33:13 kali kernel: 14:33:13.730434 main      Service started
+Jan 21 09:33:13 kali kernel: 14:33:13.758973 dp-svga-x11  output[0] successfully configured
+Jan 21 09:33:14 kali kernel: 14:33:14.230136 X11 events  received X11 event (89)
+Jan 21 09:33:14 kali kernel: 14:33:14.230272 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:33:14 kali kernel: 14:33:14.232463 X11 events  Monitor 0 (w,h)=(1920,922) (x,y)=(0,0)"
+Jan 21 09:33:14 kali kernel: 14:33:14.232634 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:33:14 kali kernel: 14:33:14.233443 X11 events  received X11 event (89)
+Jan 21 09:33:14 kali kernel: 14:33:14.233548 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:33:14 kali kernel: 14:33:14.233880 X11 events  Monitor 0 (w,h)=(1920,922) (x,y)=(0,0)"
+Jan 21 09:33:14 kali kernel: 14:33:14.234015 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:33:14 kali kernel: 14:33:14.234245 X11 events  received X11 event (89)
+Jan 21 09:33:14 kali kernel: 14:33:14.234337 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:33:14 kali kernel: 14:33:14.236115 X11 events  Monitor 0 (w,h)=(1920,922) (x,y)=(0,0)"
+Jan 21 09:33:14 kali kernel: 14:33:14.236257 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:33:14 kali kernel: 14:33:14.236381 X11 events  received X11 event (89)
+Jan 21 09:33:14 kali kernel: 14:33:14.236657 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:33:14 kali kernel: 14:33:14.237537 X11 events  Monitor 0 (w,h)=(1920,922) (x,y)=(0,0)"
+Jan 21 09:33:14 kali kernel: 14:33:14.237676 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+"Jan 21 09:33:14 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.26' (uid=1000 pid=1173 comm=""xfsettingsd"")"
+Jan 21 09:33:14 kali systemd[929]: Starting dconf.service - User preferences database...
+Jan 21 09:33:14 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'ca.desrt.dconf'
+Jan 21 09:33:14 kali systemd[929]: Started dconf.service - User preferences database.
+Jan 21 09:33:14 kali kernel: 14:33:14.741330 X11 events  received X11 event (89)
+Jan 21 09:33:14 kali kernel: 14:33:14.741945 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:33:14 kali kernel: 14:33:14.742365 X11 events  Monitor 0 (w,h)=(1920,922) (x,y)=(0,0)"
+Jan 21 09:33:14 kali kernel: 14:33:14.742499 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:33:14 kali kernel: 14:33:14.742624 X11 events  received X11 event (89)
+Jan 21 09:33:14 kali kernel: 14:33:14.744281 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:33:14 kali kernel: 14:33:14.745511 X11 events  Monitor 0 (w,h)=(1920,922) (x,y)=(0,0)"
+Jan 21 09:33:14 kali kernel: 14:33:14.746038 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+"Jan 21 09:33:15 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.xfce.Notifyd' unit='xfce4-notifyd.service' requested by ':1.35' (uid=1000 pid=1210 comm=""/usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0"")"
+Jan 21 09:33:15 kali systemd[929]: Starting xfce4-notifyd.service - XFCE notifications service...
+"Jan 21 09:33:15 kali dbus-daemon[593]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.41' (uid=1000 pid=1217 comm=""/usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0"")"
+Jan 21 09:33:15 kali systemd[1]: Starting upower.service - Daemon for power management...
+"Jan 21 09:33:15 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.freedesktop.Notifications' unit='xfce4-notifyd.service' requested by ':1.38' (uid=1000 pid=1209 comm=""/usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0"")"
+"Jan 21 09:33:15 kali dbus-daemon[593]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.42' (uid=1000 pid=1266 comm=""xiccd"")"
+"Jan 21 09:33:15 kali systemd[1]: Starting colord.service - Manage, Install and Generate Color Profiles..."
+"Jan 21 09:33:15 kali polkitd[599]: Registered Authentication Agent for unix-session:2 (system bus name :1.45 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)"
+Jan 21 09:33:15 kali colord[1282]: failed to get edid data: EDID length is too small
+Jan 21 09:33:15 kali dbus-daemon[593]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+"Jan 21 09:33:15 kali systemd[1]: Started colord.service - Manage, Install and Generate Color Profiles."
+Jan 21 09:33:15 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.freedesktop.Notifications'
+Jan 21 09:33:15 kali systemd[929]: Started xfce4-notifyd.service - XFCE notifications service.
+Jan 21 09:33:15 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.xfce.Notifyd'
+Jan 21 09:33:15 kali systemd[1]: Started pcscd.service - PC/SC Smart Card Daemon.
+"Jan 21 09:33:15 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.freedesktop.thumbnails.Thumbnailer1' unit='tumblerd.service' requested by ':1.30' (uid=1000 pid=1196 comm=""xfdesktop"")"
+Jan 21 09:33:15 kali systemd[929]: Starting tumblerd.service - Thumbnailing service...
+Jan 21 09:33:15 kali dbus-daemon[593]: [system] Successfully activated service 'org.freedesktop.UPower'
+Jan 21 09:33:15 kali systemd[1]: Started upower.service - Daemon for power management.
+"Jan 21 09:33:15 kali NetworkManager[653]: <info>  [1769005995.8187] agent-manager: agent[e8231f09851185c4,:1.52/org.freedesktop.nm-applet/1000]: agent registered"
+Jan 21 09:33:15 kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+"Jan 21 09:33:16 kali dbus-daemon[593]: [system] Activating via systemd: service name='org.freedesktop.Avahi' unit='dbus-org.freedesktop.Avahi.service' requested by ':1.54' (uid=115 pid=1343 comm=""/usr/libexec/colord-sane"")"
+Jan 21 09:33:16 kali dbus-daemon[593]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.Avahi.service': Unit dbus-org.freedesktop.Avahi.service not found.
+"Jan 21 09:33:16 kali dbus-daemon[593]: [system] Activating via systemd: service name='org.freedesktop.Avahi' unit='dbus-org.freedesktop.Avahi.service' requested by ':1.55' (uid=115 pid=1343 comm=""/usr/libexec/colord-sane"")"
+Jan 21 09:33:16 kali dbus-daemon[593]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.Avahi.service': Unit dbus-org.freedesktop.Avahi.service not found.
+"Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.44' (uid=1000 pid=1322 comm=""/usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd"")"
+Jan 21 09:33:16 kali systemd[929]: Starting gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+"Jan 21 09:33:16 kali dbus-daemon[593]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service' requested by ':1.56' (uid=1000 pid=1401 comm=""/usr/libexec/gvfs-udisks2-volume-monitor"")"
+Jan 21 09:33:16 kali systemd[1]: Starting udisks2.service - Disk Manager...
+Jan 21 09:33:16 kali dbus-daemon[593]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Jan 21 09:33:16 kali systemd[1]: Started udisks2.service - Disk Manager.
+Jan 21 09:33:16 kali gvfs-udisks2-vo[1401]: unable to open file '/etc/dconf/db/local': Failed to open file “/etc/dconf/db/local”: open() failed: No such file or directory; expect degraded performance
+Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Jan 21 09:33:16 kali systemd[929]: Started gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+"Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.44' (uid=1000 pid=1322 comm=""/usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd"")"
+Jan 21 09:33:16 kali systemd[929]: Starting gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+"Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.bluez.obex' unit='obex.service' requested by ':1.52' (uid=1000 pid=1256 comm=""/usr/bin/python3 /usr/bin/blueman-applet"")"
+"Jan 21 09:33:16 kali dbus-daemon[593]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.57' (uid=1000 pid=1256 comm=""/usr/bin/python3 /usr/bin/blueman-applet"")"
+Jan 21 09:33:16 kali dbus-daemon[593]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Jan 21 09:33:16 kali systemd[929]: Starting obex.service - Bluetooth OBEX service...
+Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Jan 21 09:33:16 kali systemd[929]: Started gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+"Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.44' (uid=1000 pid=1322 comm=""/usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd"")"
+Jan 21 09:33:16 kali systemd[929]: Starting gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Jan 21 09:33:16 kali systemd[929]: Started gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+"Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.44' (uid=1000 pid=1322 comm=""/usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd"")"
+Jan 21 09:33:16 kali systemd[929]: Starting gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+Jan 21 09:33:16 kali obexd[1418]: OBEX daemon 5.82
+Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.bluez.obex'
+Jan 21 09:33:16 kali systemd[929]: Started obex.service - Bluetooth OBEX service.
+Jan 21 09:33:16 kali obexd[1418]: unable to open file '/etc/dconf/db/local': Failed to open file “/etc/dconf/db/local”: open() failed: No such file or directory; expect degraded performance
+"Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.57' (uid=1000 pid=1418 comm=""/usr/libexec/bluetooth/obexd"")"
+Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activation via systemd failed for unit 'evolution-source-registry.service': Unit evolution-source-registry.service not found.
+Jan 21 09:33:16 kali obexd[1418]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Jan 21 09:33:16 kali systemd[929]: Started gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+"Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.57' (uid=1000 pid=1418 comm=""/usr/libexec/bluetooth/obexd"")"
+Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activation via systemd failed for unit 'evolution-source-registry.service': Unit evolution-source-registry.service not found.
+Jan 21 09:33:16 kali obexd[1418]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+"Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.44' (uid=1000 pid=1322 comm=""/usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd"")"
+Jan 21 09:33:16 kali systemd[929]: Starting gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Jan 21 09:33:16 kali systemd[929]: Started gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.freedesktop.thumbnails.Thumbnailer1'
+Jan 21 09:33:16 kali systemd[929]: Started tumblerd.service - Thumbnailing service.
+"Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.30' (uid=1000 pid=1196 comm=""xfdesktop"")"
+Jan 21 09:33:16 kali systemd[929]: Starting gvfs-metadata.service - Virtual filesystem metadata service...
+Jan 21 09:33:16 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.gtk.vfs.Metadata'
+Jan 21 09:33:16 kali systemd[929]: Started gvfs-metadata.service - Virtual filesystem metadata service.
+Jan 21 09:33:17 kali kernel: 14:33:17.792935 dp-svga-x11  output[0] successfully configured
+Jan 21 09:33:18 kali kernel: 14:33:18.254871 X11 events  received X11 event (89)
+Jan 21 09:33:18 kali kernel: 14:33:18.255262 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:33:18 kali kernel: 14:33:18.255679 X11 events  Monitor 0 (w,h)=(1920,922) (x,y)=(0,0)"
+Jan 21 09:33:18 kali kernel: 14:33:18.255877 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:33:18 kali kernel: 14:33:18.256069 X11 events  received X11 event (89)
+Jan 21 09:33:18 kali kernel: 14:33:18.256200 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:33:18 kali kernel: 14:33:18.256893 X11 events  Monitor 0 (w,h)=(1920,922) (x,y)=(0,0)"
+Jan 21 09:33:18 kali kernel: 14:33:18.257100 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:33:18 kali kernel: 14:33:18.257275 X11 events  received X11 event (89)
+Jan 21 09:33:18 kali kernel: 14:33:18.257389 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:33:18 kali kernel: 14:33:18.258681 X11 events  Monitor 0 (w,h)=(1920,922) (x,y)=(0,0)"
+Jan 21 09:33:18 kali kernel: 14:33:18.258804 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:33:18 kali kernel: 14:33:18.258908 X11 events  received X11 event (89)
+Jan 21 09:33:18 kali kernel: 14:33:18.258976 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:33:18 kali kernel: 14:33:18.259312 X11 events  Monitor 0 (w,h)=(1920,922) (x,y)=(0,0)"
+Jan 21 09:33:18 kali kernel: 14:33:18.259409 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+"Jan 21 09:33:20 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.65' (uid=1000 pid=1480 comm=""/usr/bin/qterminal"")"
+Jan 21 09:33:20 kali systemd[929]: Starting xdg-desktop-portal.service - Portal service...
+"Jan 21 09:33:20 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.66' (uid=1000 pid=1482 comm=""/usr/libexec/xdg-desktop-portal"")"
+Jan 21 09:33:20 kali systemd[929]: Starting xdg-permission-store.service - sandboxed app permission store...
+Jan 21 09:33:20 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Jan 21 09:33:20 kali systemd[929]: Started xdg-permission-store.service - sandboxed app permission store.
+"Jan 21 09:33:20 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.66' (uid=1000 pid=1482 comm=""/usr/libexec/xdg-desktop-portal"")"
+Jan 21 09:33:20 kali systemd[929]: Starting xdg-document-portal.service - flatpak document portal service...
+Jan 21 09:33:20 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.freedesktop.portal.Documents'
+Jan 21 09:33:20 kali systemd[929]: Started xdg-document-portal.service - flatpak document portal service.
+"Jan 21 09:33:20 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.66' (uid=1000 pid=1482 comm=""/usr/libexec/xdg-desktop-portal"")"
+Jan 21 09:33:20 kali systemd[929]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+Jan 21 09:33:20 kali xdg-desktop-por[1507]: unable to open file '/etc/dconf/db/local': Failed to open file “/etc/dconf/db/local”: open() failed: No such file or directory; expect degraded performance
+Jan 21 09:33:20 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+Jan 21 09:33:20 kali systemd[929]: Started xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+Jan 21 09:33:20 kali xdg-desktop-por[1482]: unable to open file '/etc/dconf/db/local': Failed to open file “/etc/dconf/db/local”: open() failed: No such file or directory; expect degraded performance
+Jan 21 09:33:20 kali rtkit-daemon[839]: Supervising 12 threads of 6 processes of 2 users.
+Jan 21 09:33:20 kali rtkit-daemon[839]: Supervising 12 threads of 6 processes of 2 users.
+Jan 21 09:33:20 kali rtkit-daemon[839]: Supervising 12 threads of 6 processes of 2 users.
+Jan 21 09:33:20 kali rtkit-daemon[839]: Supervising 12 threads of 6 processes of 2 users.
+Jan 21 09:33:20 kali rtkit-daemon[839]: Supervising 12 threads of 6 processes of 2 users.
+Jan 21 09:33:20 kali rtkit-daemon[839]: Supervising 12 threads of 6 processes of 2 users.
+Jan 21 09:33:20 kali dbus-daemon[952]: [session uid=1000 pid=952 pidfd=5] Successfully activated service 'org.freedesktop.portal.Desktop'
+Jan 21 09:33:20 kali systemd[929]: Started xdg-desktop-portal.service - Portal service.
+Jan 21 09:33:22 kali systemd[1]: Stopping user@111.service - User Manager for UID 111...
+Jan 21 09:33:22 kali systemd[808]: Activating special unit exit.target...
+Jan 21 09:33:22 kali systemd[808]: Stopped target default.target - Main User Target.
+Jan 21 09:33:22 kali systemd[808]: Stopped target sound.target - Sound Card.
+Jan 21 09:33:22 kali systemd[808]: Stopping at-spi-dbus-bus.service - Accessibility services bus...
+Jan 21 09:33:22 kali systemd[808]: Stopping filter-chain.service - PipeWire filter chain daemon...
+Jan 21 09:33:22 kali systemd[808]: Stopping gvfs-daemon.service - Virtual filesystem service...
+Jan 21 09:33:22 kali systemd[808]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+Jan 21 09:33:22 kali systemd[808]: Stopped at-spi-dbus-bus.service - Accessibility services bus.
+Jan 21 09:33:22 kali systemd[808]: Stopped filter-chain.service - PipeWire filter chain daemon.
+Jan 21 09:33:22 kali systemd[808]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+Jan 21 09:33:22 kali systemd[808]: Stopping wireplumber.service - Multimedia Service Session Manager...
+Jan 21 09:33:22 kali systemd[1]: run-user-111-gvfs.mount: Deactivated successfully.
+Jan 21 09:33:22 kali systemd[808]: Stopped gvfs-daemon.service - Virtual filesystem service.
+Jan 21 09:33:22 kali systemd[808]: Stopped wireplumber.service - Multimedia Service Session Manager.
+Jan 21 09:33:22 kali systemd[808]: Stopping dbus.service - D-Bus User Message Bus...
+Jan 21 09:33:22 kali systemd[808]: Stopping pipewire.service - PipeWire Multimedia Service...
+Jan 21 09:33:22 kali systemd[808]: Stopped dbus.service - D-Bus User Message Bus.
+Jan 21 09:33:22 kali systemd[808]: Stopped pipewire.service - PipeWire Multimedia Service.
+Jan 21 09:33:22 kali systemd[808]: Removed slice session.slice - User Core Session Slice.
+Jan 21 09:33:22 kali systemd[808]: Stopped target basic.target - Basic System.
+Jan 21 09:33:22 kali systemd[808]: Stopped target paths.target - Paths.
+Jan 21 09:33:22 kali systemd[808]: Stopped target sockets.target - Sockets.
+Jan 21 09:33:22 kali systemd[808]: Stopped target timers.target - Timers.
+Jan 21 09:33:22 kali systemd[808]: Closed dbus.socket - D-Bus User Message Bus Socket.
+Jan 21 09:33:22 kali systemd[808]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+Jan 21 09:33:22 kali systemd[808]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Jan 21 09:33:22 kali systemd[808]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Jan 21 09:33:22 kali systemd[808]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 21 09:33:22 kali systemd[808]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 21 09:33:22 kali systemd[808]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Jan 21 09:33:22 kali systemd[808]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+Jan 21 09:33:22 kali systemd[808]: Closed keyboxd.socket - GnuPG public key management service.
+Jan 21 09:33:22 kali systemd[808]: Closed pipewire-pulse.socket - PipeWire PulseAudio.
+Jan 21 09:33:22 kali systemd[808]: Closed pipewire.socket - PipeWire Multimedia System Sockets.
+Jan 21 09:33:22 kali systemd[808]: Closed speech-dispatcher.socket - Speech Dispatcher Socket.
+Jan 21 09:33:22 kali systemd[808]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Jan 21 09:33:22 kali systemd[808]: Closed systemd-ask-password.socket - Query the User Interactively for a Password.
+Jan 21 09:33:22 kali systemd[808]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Jan 21 09:33:22 kali systemd[808]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Jan 21 09:33:22 kali systemd[808]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Jan 21 09:33:22 kali systemd[808]: Removed slice app.slice - User Application Slice.
+Jan 21 09:33:22 kali systemd[808]: Reached target shutdown.target - Shutdown.
+Jan 21 09:33:22 kali systemd[808]: Finished systemd-exit.service - Exit the Session.
+Jan 21 09:33:22 kali systemd[808]: Reached target exit.target - Exit the Session.
+Jan 21 09:33:22 kali (sd-pam)[812]: pam_unix(systemd-user:session): session closed for user lightdm
+Jan 21 09:33:22 kali systemd-logind[600]: Removed session 1.
+Jan 21 09:33:22 kali systemd[1]: user@111.service: Deactivated successfully.
+Jan 21 09:33:22 kali systemd[1]: Stopped user@111.service - User Manager for UID 111.
+Jan 21 09:33:22 kali systemd[1]: Stopping user-runtime-dir@111.service - User Runtime Directory /run/user/111...
+Jan 21 09:33:22 kali systemd[1]: run-user-111.mount: Deactivated successfully.
+Jan 21 09:33:22 kali systemd[1]: user-runtime-dir@111.service: Deactivated successfully.
+Jan 21 09:33:22 kali systemd[1]: Stopped user-runtime-dir@111.service - User Runtime Directory /run/user/111.
+Jan 21 09:33:22 kali systemd[1]: Removed slice user-111.slice - User Slice of UID 111.
+"Jan 21 09:33:22 kali systemd[1]: user-111.slice: Consumed 1.479s CPU time, 132M memory peak."
+Jan 21 09:33:35 kali systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jan 21 09:34:16 kali systemd[1]: pcscd.service: Deactivated successfully.
+Jan 21 09:35:01 kali CRON[1586]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jan 21 09:35:01 kali CRON[1588]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 21 09:35:01 kali CRON[1586]: pam_unix(cron:session): session closed for user root
+Jan 21 09:36:19 kali kernel: 14:36:19.314847 dp-svga-x11  output[0] successfully configured
+Jan 21 09:36:19 kali kernel: 14:36:19.569968 X11 events  received X11 event (89)
+Jan 21 09:36:19 kali kernel: 14:36:19.570080 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:19 kali kernel: 14:36:19.570694 X11 events  Monitor 0 (w,h)=(957,913) (x,y)=(0,0)"
+Jan 21 09:36:19 kali kernel: 14:36:19.570915 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:19 kali kernel: 14:36:19.571108 X11 events  received X11 event (89)
+Jan 21 09:36:19 kali kernel: 14:36:19.571248 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:19 kali kernel: 14:36:19.571817 X11 events  Monitor 0 (w,h)=(957,913) (x,y)=(0,0)"
+Jan 21 09:36:19 kali kernel: 14:36:19.572021 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:19 kali kernel: 14:36:19.572235 X11 events  received X11 event (89)
+Jan 21 09:36:19 kali kernel: 14:36:19.572308 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:19 kali kernel: 14:36:19.572854 X11 events  Monitor 0 (w,h)=(957,913) (x,y)=(0,0)"
+Jan 21 09:36:19 kali kernel: 14:36:19.573050 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:19 kali kernel: 14:36:19.573172 X11 events  received X11 event (89)
+Jan 21 09:36:19 kali kernel: 14:36:19.573231 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:19 kali kernel: 14:36:19.573684 X11 events  Monitor 0 (w,h)=(957,913) (x,y)=(0,0)"
+Jan 21 09:36:19 kali kernel: 14:36:19.573769 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:19 kali kernel: 14:36:19.655934 dp-svga-x11  output[0] successfully configured
+Jan 21 09:36:20 kali kernel: 14:36:20.014501 dp-svga-x11  output[0] successfully configured
+Jan 21 09:36:20 kali kernel: 14:36:20.075496 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.075790 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.078467 X11 events  Monitor 0 (w,h)=(955,911) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.078717 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:20 kali kernel: 14:36:20.078866 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.078959 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.083411 X11 events  Monitor 0 (w,h)=(955,911) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.083667 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:20 kali kernel: 14:36:20.084047 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.084411 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.086798 X11 events  Monitor 0 (w,h)=(955,911) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.087233 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:20 kali kernel: 14:36:20.087388 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.087478 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.099310 X11 events  Monitor 0 (w,h)=(955,911) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.099903 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:20 kali kernel: 14:36:20.100076 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.100192 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.117600 X11 events  Monitor 0 (w,h)=(955,911) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.118027 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:20 kali kernel: 14:36:20.118163 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.118527 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.122289 X11 events  Monitor 0 (w,h)=(955,911) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.122716 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:20 kali kernel: 14:36:20.122867 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.122941 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.123716 X11 events  Monitor 0 (w,h)=(955,911) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.123998 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:20 kali kernel: 14:36:20.124768 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.125651 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.132917 X11 events  Monitor 0 (w,h)=(955,911) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.133367 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:20 kali kernel: 14:36:20.425502 dp-svga-x11  output[0] successfully configured
+Jan 21 09:36:20 kali kernel: 14:36:20.633818 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.634098 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.635176 X11 events  Monitor 0 (w,h)=(955,910) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.635488 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:20 kali kernel: 14:36:20.635750 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.635934 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.639310 X11 events  Monitor 0 (w,h)=(955,910) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.639616 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:20 kali kernel: 14:36:20.639838 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.640002 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.640737 X11 events  Monitor 0 (w,h)=(955,910) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.641951 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:36:20 kali kernel: 14:36:20.643011 X11 events  received X11 event (89)
+Jan 21 09:36:20 kali kernel: 14:36:20.643268 X11 events  RRScreenChangeNotify event received
+"Jan 21 09:36:20 kali kernel: 14:36:20.645804 X11 events  Monitor 0 (w,h)=(955,910) (x,y)=(0,0)"
+Jan 21 09:36:20 kali kernel: 14:36:20.646095 X11 events  Sending monitor positions (8 of them)  to the host: VINF_SUCCESS
+Jan 21 09:38:03 kali sudo[1706]:     kali : TTY=pts/0 ; PWD=/home/kali/ai_threat_detection ; USER=root ; COMMAND=venv/bin/python src/log_collector.py
+Jan 21 09:38:03 kali sudo[1706]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
