@@ -9,7 +9,7 @@ vectorizer = joblib.load("model/vectorizer.pkl")
 st.set_page_config(page_title="AI Threat Detection", page_icon="🛡️")
 
 st.title("🛡️ AI DRIVEN THREAT DETECTION SYSTEM")
-st.write("Live Monitoring Systems ")
+st.write("Live Monitoring linux Systems ")
 
 log_placeholder = st.empty()
 status_placeholder = st.empty()
