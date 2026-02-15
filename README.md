@@ -10,7 +10,7 @@ Built as part of hands-on cybersecurity + AI engineering practice.
 
 ## 🚀 Features
 
-✅ Real-time log monitoring using `journalctl`
+✅ Real-time log monitoring using `journalctl` 
 ✅ Machine Learning–based threat classification
 ✅ Detects failed logins, authentication anomalies, suspicious behavior
 ✅ Interactive Streamlit dashboard
